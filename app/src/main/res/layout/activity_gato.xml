@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+
+    tools:context="com.soa.jesteban.qiuz1.GatoActivity">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="252dp"
+        android:layout_height="252dp"
+
+        android:layout_gravity="center|center_horizontal"
+        android:columnCount="3"
+        android:foregroundGravity="center_vertical"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/number_1_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/number_1_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/number_1_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+
+        <Button
+            android:id="@+id/number_2_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/number_2_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+
+        <Button
+            android:id="@+id/number_2_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+
+        <Button
+            android:id="@+id/number_3_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/number_3_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/number_3_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
